@@ -6,7 +6,6 @@ RUN apt-get update && apt-get install -y \
     nodejs \
     npm \
     iproute2 \       # Provides the `ip` command
-    net-tools \      # Provides the `ifconfig` command
     nmap \           # Provides the `nmap` command
     iputils-ping     # Provides the `ping` command
 
