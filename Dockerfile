@@ -5,9 +5,9 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y \
     nodejs \
     npm \
-    iproute2 \       # Provides the `ip` command
-    nmap \           # Provides the `nmap` command
-    iputils-ping     # Provides the `ping` command
+    iproute2 \
+    nmap \
+    iputils-ping
 
 # Set working directory and install app dependencies
 WORKDIR /app
