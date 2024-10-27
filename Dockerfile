@@ -7,7 +7,8 @@ RUN apt-get update && apt-get install -y \
     npm \
     iproute2 \
     nmap \
-    iputils-ping
+    iputils-ping \
+    curl
 
 # Set working directory and install app dependencies
 WORKDIR /app
