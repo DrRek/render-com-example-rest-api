@@ -1,3 +1,6 @@
 [submodule "submoduletest"]
 	path = submoduletest
 	url = https://github.com/render-examples/express-hello-world
+[submodule "submoduletest2"]
+	path = submoduletest2
+	url = git@github.com:DrRek/express-hello-world-test.git
