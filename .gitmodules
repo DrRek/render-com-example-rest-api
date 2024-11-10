@@ -1,1 +1,3 @@
-https://github.com/something/something
+[submodule "submoduletest"]
+	path = submoduletest
+	url = https://github.com/render-examples/express-hello-world
